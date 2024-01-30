@@ -1,0 +1,50 @@
+/*------------------------
+
+COLOR PALETTE
+
+Cream #fae8d4
+Light pink #ffb6bd
+Yellow #ffc87a
+Dark Pink #bb4253
+Midnight Blue #OE3d43
+
+------------------------*/
+
+
+
+body {
+    background-color: #fae8d4;
+    background: url(../images/joanna-kosinska-unsplash.jpg)  no-repeat;
+    color: #0e3d43
+}
+
+.btn { 
+    background: #bb4253;
+    color: #fae8d4;
+    text-decoration: none;
+
+}
+/* links */
+
+a {
+    color: #bb4253;
+
+}
+
+a:hover {
+    color: #ffb6bd
+    text-decoration: none;
+
+}
+
+
+/*------------------------
+
+FOOTER
+
+------------------------*/
+
+footer {
+    background-color: #ffc87a;
+
+}
