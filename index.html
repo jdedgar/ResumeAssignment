@@ -4,40 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://use.typekit.net/esg7bxl.css">
     <title>Janna Edgar Resume Assignment</title>
   </head>
   <body>
-    <main>
+    
       <!-- ***********************  ABOUT / PROFILE  *********************** -->
+     <a class="btn download-link" href="#">Download PDF</a> 
       <header>
+        <div class="intro-wrapper">
         <h1>Janna Edgar</h1>
-        <h2>Graphic Designer</h2>
-
-        <p>Hi! My name is Janna. I am a graphic design student at Wake Technical Community College with extensive administrative experience. I am graduating this year with an Associates in Applied Science (AAS) and am excited to begin looking for potential job opportunities. My love for learning new things and connecting with people makes me a well-rounded candidate for any position that needs a creative touch.</p>
+        <h2>Graphic Designer & Creative</h2>
+      
+        <p>Hi! My name is Janna. I am a Graphic Design Student at Wake Technical Community College with extensive administrative experience. I am graduating this year with an Associates in Applied Science (AAS) and I am excited to begin looking for potential job opportunities. My love for learning new things and connecting with others makes me a well-rounded candidate for any position that needs a creative touch.</p>
+        </div>
       </header>
 
+      <main class="content-wrapper">
+
       <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
-      <section>
+      <section class="resume-section">
         <h2>Featured Projects</h2>
 
         <!-- Copy the whole <section> block to add more projects. -->
-        <section>
+        <section class="project-item">
           <h3>Project Name</h3>
-          <img src="images/thumbnail-1.jpg" alt="description of image">
+          <img src="images/project1.jpg" alt="description of image">
+          <p>Summary or description of the project and/or your role in it. Add as many paragraphs as you need.</p>
+          <a class="btn" href="#" target="_blank">View project / case study</a>
+        </section>`
+
+        <section class="project-item">
+          <h3>Project Name</h3>
+          <img class="lower-image" src="images/project2.jpg" alt="description of image">
           <p>Summary or description of the project and/or your role in it. Add as many paragraphs as you need.</p>
           <a class="btn" href="#" target="_blank">View project / case study</a>
         </section>
 
-        <section>
+        <section class="project-item">
           <h3>Project Name</h3>
-          <img src="images/thumbnail-2.jpg" alt="description of image">
-          <p>Summary or description of the project and/or your role in it. Add as many paragraphs as you need.</p>
-          <a class="btn" href="#" target="_blank">View project / case study</a>
-        </section>
-
-        <section>
-          <h3>Project Name</h3>
-          <img src="images/thumbnail-3.jpg" alt="description of image">
+          <img class="lower-image" src="images/project3.jpg" alt="description of image">
           <p>Summary or description of the project and/or your role in it. Add as many paragraphs as you need.</p>
           <a class="btn" href="#" target="_blank">View project / case study</a>
         </section>
@@ -45,38 +51,46 @@
       </section>
 
       <!-- ***********************  WORK EXPERIENCE  *********************** -->
-      <section>
+      <section class="resume-section">
         <h2>Work Experience</h2>
 
         <!-- Copy this whole <section> block to add more jobs. -->
-          <section>
-            <h3>Freelance Graphic Designer and Creative</h3>
-            <p>Janna Creative</p>
-            <p>Jan 2023 - Current</p>
-            <ul>
-              <li>Engaged in discussions with clients to understand project requirements, incorporating feedback to guarantee client satisfaction.</li>
-              <li>Delivered top-tier creative output across various domains, including photography, layout design, branding, and social media graphics.</li>
-              <li>Managed social media platforms and implemented word-of-mouth advertising strategies.</li>
-              <li>Demonstrated proficiency in Adobe Creative Suite and applied solid design principles to consistently produce high-quality work.</li>
-            </ul>
+          <section class="work-item">
+            <div class="work-details">
+              <h3>Graphic Designer and Creative</h3>
+              <p>Janna Creative</p>
+              <p>Jan 2023 - Current</p>
+              </div>
+            <div class="work-summary">
+              <ul>
+                <li>Engaged in discussions with clients to understand project requirements, incorporating feedback to guarantee client satisfaction.</li>
+                <li>Delivered top-tier creative output across various domains, including photography, layout design, branding, and social media graphics.</li>
+                <li>Managed social media platforms and implemented word-of-mouth advertising strategies.</li>
+                <li>Demonstrated proficiency in Adobe Creative Suite and applied solid design principles to consistently produce high-quality work.</li>
+                </ul>
+            </div>
           </section>
 
-        <section>
-          <h3>Administrative Assistant</h3>
-          <p>Bodylase Medspa</p>
-          <p>Jan 2020 - Aug 2021</p>
-          <ul>
-            <li>Assisted Marketing Specialist in taking photos and creating marketing materials for in-spa as well as social media</li>
-            <li>Tracked company goals and communicated with my team on how to surpass our goals</li>
-            <li>Operated high volume phone calls, scheduling patients accordingly in a fast-paced environment</li>
-            <li>Meticulously handle POS system transactions including credit, cash, exchanges, and returns to ensure seamless and accurate cash flow and successfully handle thousands of dollars in cash and card sales in one shift by processing complicated orders</li>
-          </ul>
+        <section class="work-item">
+          <div class="work-details">
+            <h3>Administrative Assistant</h3>
+            <p>Bodylase Medspa</p>
+            <p>Jan 2020 - Aug 2021</p>
+            </div>
+          <div class="work-summary">
+            <ul>
+              <li>Assisted Marketing Specialist in taking photos and creating marketing materials for in-spa as well as social media</li>
+              <li>Tracked company goals and communicated with my team on how to surpass our goals</li>
+              <li>Operated high volume phone calls, scheduling patients accordingly in a fast-paced environment</li>
+              <li>Meticulously handle POS system transactions including credit, cash, exchanges, and returns to ensure seamless and accurate cash flow and successfully handle thousands of dollars in cash and card sales in one shift by processing complicated orders</li>
+            </ul>
+          </div>
         </section>
         <!-- End of Job block. -->
       </section>
 
       <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
-      <section>
+      <section class="resume-section">
         <h2>Education</h2>
 
         <!-- Copy this whole <section> block to add more schools. -->
@@ -89,18 +103,18 @@
         </section>
         <!-- End of School block. -->
       </section>
-
+    </main>
       <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
       <footer>
         <h2>Let's Keep in Touch!</h2>
 
         <!-- Social media and contact links. Add or remove any networks. -->
-        <ul>
+        <ul class="socials">
           <li><a href="https://twitter.com/jannacreative" target="_blank"><img src="images/twitterlogo.png" alt="My Twitter"></a></li>
           <li><a href="https://www.instagram.com/jannacreative/" target="_blank"><img src="images/instalogo.png" alt="My Instagram"></a></li>
           <li><a href="https://www.linkedin.com/in/jannaedgar/" target="_blank"><img src="images/linkedinlogo.png" alt="My linkedin"></a></li>
         </ul>
       </footer>
-    </main>
+    
   </body>
 </html>
